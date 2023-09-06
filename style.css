@@ -23,3 +23,25 @@ html {
   font-size: 62.5%;
   font-family: 'JetBrains Mono', monospace;
 }
+
+h1 span:before {
+  animation: dots 2s linear infinite;
+  content: '';
+}
+
+@keyframes dots {
+  0%,
+  20% {
+    content: '.';
+  }
+  40% {
+    content: '..';
+  }
+  60% {
+    content: '...';
+  }
+  90%,
+  100% {
+    content: '';
+  }
+}
