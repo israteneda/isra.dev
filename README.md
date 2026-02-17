@@ -1,1 +1,1 @@
-This is the personal website of Israel Teneda
+This is the personal website of Israel Teneda.
